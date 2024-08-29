@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 25px;
+    animation: fade-in 0.4s;
+
+    .logo {
+        color: rgba(255,255,255,0.7);
+        font-size: 30px;
+    }
+
+    .nav {
+
+    }
+
+    .links {
+        display: flex;
+        column-gap: 2.8125rem;
+    }
+
+    .link-item {
+
+    }
+
+    .link {
+        font-size: 14px;
+        color: rgba(255,255,255,0.7);
+        text-transform: uppercase;
+        letter-spacing: 0.0625rem;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            color: rgba(255,255,255,1);
+        }
+
+        &__btn {
+            color: #fff;
+            background-color: $accent-color;
+            padding: 0.625rem 1.125rem;
+            transition: all 0.2s ease-in-out;
+            border-radius: 5px;
+            &:hover {
+                color: $accent-color-dark;
+            }
+        }
+    }
+
+}
